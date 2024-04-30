@@ -5,7 +5,8 @@
   "autoload": {
     "psr-4": {
       "App\\": "src/",
-      "observer\\": "src/observer/"
+      "observer\\": "src/observer/",
+      "strategy\\": "src/strategy/"
     }
   }
 }
