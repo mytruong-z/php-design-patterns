@@ -1,5 +1,5 @@
 <?php
-namespace tests;
+namespace Observers;
 
 use observer\Observers\TemperatureDisplay;
 use observer\Subjects\WeatherStation;

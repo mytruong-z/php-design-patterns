@@ -1,10 +1,10 @@
 <?php
 
-namespace tests;
+namespace Observers;
 
 use observer\Interfaces\Observer;
 use observer\Subjects\WeatherStation;
-use TemperatureDisplay;
+use observer\Observers\TemperatureDisplay;
 
 require_once 'src/observer/Subjects/WeatherStation.php';
 require_once 'src/observer/Observers/TemperatureDisplay.php';
