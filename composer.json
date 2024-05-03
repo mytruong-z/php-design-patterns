@@ -6,7 +6,8 @@
     "psr-4": {
       "App\\": "src/",
       "observer\\": "src/observer/",
-      "strategy\\": "src/strategy/"
+      "strategy\\": "src/strategy/",
+      "decorator\\": "src/decorator/"
     }
   }
 }
