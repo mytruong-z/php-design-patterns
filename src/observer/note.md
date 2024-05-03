@@ -106,3 +106,14 @@
 - Using observers to encapsulate business logic instead of scattering it across the application.
 - Avoiding heavy logic in observers; delegate tasks to services if necessary.
 - Writing tests for your observers to ensure they behave as expected.
+
+### Practical Applications
+1. **Real-time Notifications**  
+    **Scenario:** You have a social media platform where users can follow each other. When a user posts a new message, all their followers should receive a real-time notification.
+    **Implementation:** Use the Observer Pattern to notify followers when a user posts a new message. The user is the subject, and followers are observers. When the user posts a message, notify all followers to update their feeds.
+2. **Stock Market Updates**  
+    **Scenario:** You are building a stock market application that needs to update users in real-time when stock prices change.
+    **Implementation:** Implement the Observer Pattern to notify users when stock prices change. The stock price is the subject, and users are observers. When the stock price changes, notify all users to update their portfolios.
+3. **Task Management System**  
+    **Scenario:** You are developing a task management system where users can assign tasks to team members. When a task is assigned or completed, team members should receive notifications.
+    **Implementation:** Use the Observer Pattern to notify team members when tasks are assigned or completed. Tasks are subjects, and team members are observers. When a task is assigned or completed, notify the assigned team members to update their task lists.
